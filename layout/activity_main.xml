@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="com.attendance.myproject.attendanceregister.MainActivity">
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:text="Teacher"
+        android:id="@+id/teacherButton"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:layout_above="@+id/studentButton"
+        android:textSize="40dp"
+        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="fn" />
+
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:text="Student"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:id="@+id/studentButton"
+        android:onClick="fn"
+        android:layout_marginBottom="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ipeclogo" />
+
+</RelativeLayout>

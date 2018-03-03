@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "457872378315",
+    "firebase_url": "https://attendance-register-4036f.firebaseio.com",
+    "project_id": "attendance-register-4036f",
+    "storage_bucket": "attendance-register-4036f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457872378315:android:5731a701fa505e88",
+        "android_client_info": {
+          "package_name": "com.attendance.myproject.attendanceregister"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457872378315-qnenipnqhmpe4vvn5v2t3mt2o8te3jpu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSa8jxkrEkdZp5PAtsN-ZsneQe4bc0umM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.attendance.myproject.attendanceregister.AttendanceActivity"
+    android:weightSum="1">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="393dp"
+        android:id="@+id/listView2"
+        android:layout_weight="0.81" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:text="SUBMIT TODAY&apos;S ATTENDANCE"
+        android:textSize="15dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:id="@+id/button6"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.30"
+        android:onClick="submitAttendance" />
+</LinearLayout>

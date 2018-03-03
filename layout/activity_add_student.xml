@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.attendance.myproject.attendanceregister.AddStudentActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:text="User Id"
+                android:gravity="center_vertical"
+                android:textSize="25dp"
+                android:id="@+id/textView2" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/editText5"
+                android:textSize="25dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:text="Name"
+                android:gravity="center_vertical"
+                android:textSize="25dp"
+                android:id="@+id/textView3" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/editText6"
+                android:textSize="25dp"
+                android:layout_weight="1"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:text="Roll No."
+                android:gravity="center_vertical"
+                android:textSize="25dp"
+                android:id="@+id/textView4" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/editText7"
+                android:textSize="25dp"
+                android:layout_weight="1"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:text="Dept."
+                android:gravity="center_vertical"
+                android:textSize="25dp"
+                android:id="@+id/textView5" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/editText8"
+                android:textSize="25dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:text="Phone"
+                android:gravity="center_vertical"
+                android:textSize="25dp"
+                android:id="@+id/textView6" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/editText9"
+                android:textSize="25dp"
+                android:layout_weight="1"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:text="Email"
+                android:gravity="center_vertical"
+                android:textSize="25dp"
+                android:id="@+id/textView7" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/editText10"
+                android:textSize="25dp"
+                android:layout_weight="1"
+                android:inputType="textEmailAddress" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:text="Password"
+                android:gravity="center_vertical"
+                android:textSize="25dp"
+                android:id="@+id/textView8" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/editText11"
+                android:textSize="25dp"
+                android:layout_weight="1"
+                android:inputType="textPassword" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="Subjects"
+                android:textSize="25dp"
+                android:gravity="center_vertical"
+                android:id="@+id/textView" />
+            <ScrollView android:layout_width="200dp"
+                        android:layout_height="120dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="CS01"
+                    android:textSize="25dp"
+                    android:id="@+id/checkBox1" />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="CS02"
+                    android:textSize="25dp"
+                    android:id="@+id/checkBox2" />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="CS03"
+                    android:textSize="25dp"
+                    android:id="@+id/checkBox3" />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="CS04"
+                    android:textSize="25dp"
+                    android:id="@+id/checkBox4" />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="CS05"
+                    android:textSize="25dp"
+                    android:id="@+id/checkBox5" />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="CS06"
+                    android:textSize="25dp"
+                    android:id="@+id/checkBox6" />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="CS07"
+                    android:textSize="25dp"
+                    android:id="@+id/checkBox7" />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="CS08"
+                    android:textSize="25dp"
+                    android:id="@+id/checkBox8" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="238dp"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:id="@+id/button5"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:onClick="fnRegister" />
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
